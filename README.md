@@ -49,7 +49,7 @@ Authorized redirect URI: https://your-machine.your-tailnet.ts.net/oauth/google/c
 ```
 Client ID و Client Secret رو یادداشت کن.
 
-> اگه بعداً خواستی به‌جای Tailscale از دامنه‌ی خودت (وردست۲۴) و nginx استفاده کنی، فایل `nginx/seo-mcp.conf` همین‌جا در ریپو آماده‌ست — ولی برای استفاده‌ی شخصی فعلی لازم نیست.
+> اگه بعداً خواستی به‌جای Tailscale از دامنه‌ی خودت و nginx استفاده کنی، فایل `nginx/seo-mcp.conf` همین‌جا در ریپو آماده‌ست — ولی برای استفاده‌ی شخصی فعلی لازم نیست.
 
 ---
 

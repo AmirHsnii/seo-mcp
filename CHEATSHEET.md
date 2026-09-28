@@ -37,7 +37,7 @@
 
 | پارامتر | نوع | پیش‌فرض | توضیح |
 |---|---|---|---|
-| `site_url` | string | — | دقیقاً مثل `list_sites` (مثلاً `sc-domain:bitpin.ir`) |
+| `site_url` | string | — | دقیقاً مثل `list_sites` (مثلاً `sc-domain:example.com`) |
 | `start_date` | string | — | `YYYY-MM-DD` |
 | `end_date` | string | — | `YYYY-MM-DD` |
 | `dimensions` | list | — | `query`, `page`, `date`, `device`, `country` |
@@ -46,20 +46,20 @@
 
 **فیلتر نمونه:**
 ```json
-{"dimension": "query", "operator": "excludingRegex", "expression": "bitpin|بیت.?پین"}
+{"dimension": "query", "operator": "excludingRegex", "expression": "yourbrand|برند.?شما"}
 ```
 
 **اپراتورها:** `equals`, `notEquals`, `contains`, `notContains`, `includingRegex`, `excludingRegex`
 
 **پرامپت‌های نمونه:**
 ```
-پربازدیدترین ۲۰ کوئری sc-domain:bitpin.ir در ۲۸ روز گذشته
+پربازدیدترین ۲۰ کوئری sc-domain:example.com در ۲۸ روز گذشته
 ```
 ```
-عملکرد sc-domain:bitpin.ir به تفکیک device و country در ۹۰ روز اخیر
+عملکرد sc-domain:example.com به تفکیک device و country در ۹۰ روز اخیر
 ```
 ```
-کوئری‌های sc-domain:bitpin.ir با ایمپرشن بالا ولی CTR پایین
+کوئری‌های sc-domain:example.com با ایمپرشن بالا ولی CTR پایین
 ```
 
 ---
@@ -78,10 +78,10 @@
 
 **پرامپت‌های نمونه:**
 ```
-صفحه‌های striking distance سایت sc-domain:bitpin.ir در ماه اخیر
+صفحه‌های striking distance سایت sc-domain:example.com در ماه اخیر
 ```
 ```
-صفحه‌های sc-domain:bitpin.ir با پوزیشن ۵–۱۵ و حداقل ۱۰۰ ایمپرشن
+صفحه‌های sc-domain:example.com با پوزیشن ۵–۱۵ و حداقل ۱۰۰ ایمپرشن
 ```
 
 ---
@@ -98,7 +98,7 @@
 
 **پرامپت نمونه:**
 ```
-وضعیت ایندکس https://bitpin.ir/blog/post رو در GSC بررسی کن
+وضعیت ایندکس https://example.com/blog/post رو در GSC بررسی کن
 ```
 
 ---
@@ -114,7 +114,7 @@
 
 **پرامپت نمونه:**
 ```
-سایت‌مپ https://bitpin.ir/sitemap.xml رو بخون و تعداد URLها رو بگو
+سایت‌مپ https://example.com/sitemap.xml رو بخون و تعداد URLها رو بگو
 ```
 
 ---
@@ -130,7 +130,7 @@
 
 **پرامپت نمونه:**
 ```
-تایتل و متادیسکریپشن https://bitpin.ir/page رو بیار و از نظر سئو ارزیابی کن
+تایتل و متادیسکریپشن https://example.com/page رو بیار و از نظر سئو ارزیابی کن
 ```
 
 ---
@@ -138,17 +138,17 @@
 ## سناریوهای ترکیبی (پیشنهادی)
 
 ```
-صفحه‌های striking distance sc-domain:bitpin.ir رو پیدا کن،
+صفحه‌های striking distance sc-domain:example.com رو پیدا کن،
 محتوای ۳ تای اول رو بخون و بگو چی کم دارن.
 ```
 
 ```
-سایت‌مپ https://bitpin.ir/sitemap.xml رو بخون،
+سایت‌مپ https://example.com/sitemap.xml رو بخون،
 وضعیت ایندکس ۵ URL اول رو چک کن.
 ```
 
 ```
-۱۰ کوئری برتر sc-domain:bitpin.ir در ۷ روز اخیر (بدون برند)،
+۱۰ کوئری برتر sc-domain:example.com در ۷ روز اخیر (بدون برند)،
 به‌همراه صفحه‌ی هر کوئری.
 ```
 
