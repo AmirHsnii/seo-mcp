@@ -1,0 +1,23 @@
+services:
+  seo-mcp:
+    build: .
+    image: seo-mcp
+    container_name: seo-mcp
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      PORT: 8420
+    ports:
+      - "127.0.0.1:8420:8420"
+    volumes:
+      - seo-mcp-data:/app/data
+    mem_limit: 512m
+    cpus: 0.5
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  seo-mcp-data:

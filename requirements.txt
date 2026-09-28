@@ -1,0 +1,12 @@
+mcp<2
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+lxml
+trafilatura
+httpx
+python-dotenv
+uvicorn
+starlette
+pytest
+ruff
